@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540" height="380" viewBox="0 0 540 380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Kid Safe Browser logo (simplified version) -->
+    <g id="kidSafeLogo">
+      <!-- Shield background -->
+      <path d="M50 20 C50 20, 50 15, 60 15 L90 15 C100 15, 100 20, 100 20 L100 60 C100 70, 75 80, 75 80 C75 80, 50 70, 50 60 Z" 
+            fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+      
+      <!-- Shield icon -->
+      <circle cx="75" cy="45" r="15" fill="white"/>
+      <path d="M70 45 L73 48 L80 40" stroke="#4CAF50" stroke-width="3" fill="none" stroke-linecap="round"/>
+      
+      <!-- Browser window -->
+      <rect x="65" y="25" width="20" height="15" rx="2" fill="white" stroke="#2E7D32" stroke-width="1"/>
+      <circle cx="68" cy="28" r="1" fill="#ff5f56"/>
+      <circle cx="71" cy="28" r="1" fill="#ffbd2e"/>
+      <circle cx="74" cy="28" r="1" fill="#27ca3f"/>
+    </g>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="540" height="380" fill="url(#backgroundGradient)"/>
+  
+  <!-- Main logo centered -->
+  <g transform="translate(220, 80) scale(2.5)">
+    <use href="#kidSafeLogo"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="270" y="220" text-anchor="middle" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="24" font-weight="600" fill="#2E7D32">Kid Safe Browser</text>
+  
+  <!-- Subtitle -->
+  <text x="270" y="245" text-anchor="middle" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="14" font-weight="400" fill="#666">Safe YouTube browsing for kids</text>
+  
+  <!-- Installation instruction -->
+  <text x="270" y="320" text-anchor="middle" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="12" font-weight="400" fill="#999">Drag the app to Applications folder to install</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="3" fill="#4CAF50" opacity="0.3"/>
+  <circle cx="440" cy="120" r="2" fill="#4CAF50" opacity="0.2"/>
+  <circle cx="80" cy="300" r="2" fill="#4CAF50" opacity="0.2"/>
+  <circle cx="460" cy="280" r="3" fill="#4CAF50" opacity="0.3"/>
+</svg> 

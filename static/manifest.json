@@ -1,0 +1,27 @@
+{
+	"dir" : "ltr",
+	"lang" : "de",
+	"name" : "Scout Browser",
+	"scope" : "/",
+	"display" : "standalone",
+	"start_url" : "https://app.kidsafebrowser.com/",
+	"short_name" : "Scout Browser",
+	"theme_color" : "#212121",
+	"description" : "A safe YouTube client for families",
+	"orientation" : "any",
+	"background_color" : "#212121",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "_icons/iconColor.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"url" : "https://app.kidsafebrowser.com",
+	"screenshots" : [],
+	"generated" : "true",
+	"manifest_version": 2,
+	"version" : "0.24.9"
+}
