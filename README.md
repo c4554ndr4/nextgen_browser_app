@@ -4,6 +4,10 @@ My github projects are presented with AI-assisted writing that I've reviewed. If
 
 # Scout Browser
 
+[Try the live web demo](https://scout-family-browser-demo.calicomccoy.chatgpt.site) · [Demo source and setup](demo/README.md)
+
+The demo lets a parent set guidance, shows concise agent action summaries, and then takes a child’s questions. Live AI requests require sign-in and have server-enforced usage caps. It generates exploration ideas; it does not search or review videos.
+
 **A research project in decentralized alignment: a web agent serving a parent and child whose interests do not always coincide.**
 
 Scout began with a question about whose preferences an agent should follow. A child wants to explore; a parent has expectations about what to encourage and restrict; the model brings assumptions of its own. The research challenge was to make those boundaries explicit and carry them through an entire browsing interaction.
